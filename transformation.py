@@ -21,7 +21,6 @@ def extract_payments_to_df():
         .load()
     return payment_df
 
-
 #create function
 def extract_staff_to_df():
     staff_df = spark.read \
